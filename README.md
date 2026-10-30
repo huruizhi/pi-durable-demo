@@ -1,5 +1,7 @@
 # Pi Durable + 本地模型 Demo
 
+GitHub：<https://github.com/huruizhi/pi-durable-demo>
+
 这个 Demo 按 PDF 的核心结构实现：本地 OpenAI-compatible 模型服务负责加载模型，Pi Durable 负责 Agent loop、工具调用、SQLite 持久化和跨进程恢复。所有运行逻辑收敛在一个 `src/demo.mjs` 文件中，并提供一次性 CLI、交互式 TUI 和自动恢复实验三种入口。
 
 > PDF 配套笔记中的本地服务示例是 `llama.cpp`（`127.0.0.1:8080/v1`）。本项目默认使用 vLLM（`127.0.0.1:8000/v1`），因为两者都提供 OpenAI-compatible API；切换服务只需要改环境变量。

@@ -29,6 +29,15 @@
     恢复：    npm run resume
     检查：    npm run check
 
+GitHub 仓库：
+
+    https://github.com/huruizhi/pi-durable-demo
+
+仓库信息：
+
+    可见性：public
+    默认分支：main
+
 ### 包版本
 
     Node.js：v22.23.1
