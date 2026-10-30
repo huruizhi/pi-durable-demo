@@ -1,0 +1,19 @@
+{
+  "name": "pi-durable-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A small Pi Durable demo showing persistent conversations and resume after restart.",
+  "scripts": {
+    "demo": "node src/demo.mjs",
+    "tui": "node src/demo.mjs --tui",
+    "resume": "node src/demo.mjs --resume",
+    "experiment": "node src/demo.mjs --experiment",
+    "check": "node --check src/demo.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/chord": "^1.4.0",
+    "@earendil-works/pi-ai": "^1.4.0",
+    "@earendil-works/pi-durable": "^1.4.0"
+  }
+}

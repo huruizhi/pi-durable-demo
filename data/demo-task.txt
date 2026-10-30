@@ -1,0 +1,3 @@
+这是一个可恢复的 Pi Durable 演示任务。
+第一步由 Agent 调用 read 工具读取本文件；第二步故意等待，方便进程被中断。
+重启后，Harness 会从 SQLite 中保存的 submission 和工具检查点继续，而不是重新丢失整个任务。
